@@ -1,0 +1,108 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+}
+
+.head {
+  background-color: white;
+  width: auto;
+  /* height: 100px; */
+  justify-content: space-between;
+  display: flex;
+  padding: 23px;
+}
+
+.si {
+  width: 70px;
+  height: 70px;
+}
+
+.backgr {
+  background: url(https://vkplay.ru/pre_0x736_resize/hotbox/content_files/news/2022/08/17/cb19e7705cea41c5923845a9e17985af.jpg?quality=85);
+  /* height: 700px; */
+  background-size: cover;
+  padding-top: 17px;
+  padding-bottom: 58px;
+}
+
+.start {
+  text-align: center;
+  margin-top: 26px;
+}
+
+.middle {
+  text-align: left;
+  font-size: 15px;
+}
+
+.middle2 {
+  display: flex;
+  gap: 27px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.block1 {
+  background-color: #ffffff;
+  width: 330px;
+  /* height: 510px; */
+  border-radius: 10px;
+}
+
+.block2 {
+  background-color: #ffffff;
+  width: 330px;
+  height: 510px;
+  border-radius: 10px;
+}
+
+.block3 {
+  background-color: aqua;
+  width: 330px;
+  height: 510px;
+  border-radius: 10px;
+}
+
+.inv {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+
+.text {
+  padding: 23px;
+  padding-top: 10px;
+}
+
+.end {
+  background-color: rgb(31 31 31);
+  width: auto;
+  height: 50px;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+h1 {
+  color: white;
+  font-size: 39px;
+}
+
+
+
+@media (max-width:1200px) {
+  .block1 {
+    width: 400px;
+  }
+}
+
+@media (max-width:300px) {
+  .block1 {
+    width: 100px;
+    font-size: 0px;
+  }
+}
+
+.head {
+  display: none;
+}
